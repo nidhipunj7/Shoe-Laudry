@@ -1,0 +1,90 @@
+body{
+    background: url("../images/bg1Op.jpeg")
+        no-repeat center center fixed;
+    background-size:cover;
+    
+}
+
+div{
+/*    background-color: #daf5fb;*/
+    border-radius: 6px;
+    text-align: center;
+     margin: 0 auto;
+}
+
+.head{
+    background-color: darkred;
+    opacity:0.8;
+    width: 50%;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+h1{ 
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 3.8em;
+   font-family: 'Elsie Swash Caps', cursive;
+    color:white;
+    
+}
+
+.n1{
+    margin-top: 5px;
+    margin-left: 900px;
+    background-color: blanchedalmond;
+    width:25%;
+    opacity: 0.8;
+    border-radius: 20px;
+    
+}
+
+.n1 p{
+    text-align: right;
+    margin-top: 0.1px;
+    color:#a3181a;
+    font-size: 1.5em;
+    font-family: 'Niconne', cursive;
+   
+    
+}
+
+.n2{
+    margin-top: 80px;
+    margin-left: 375px;
+    background-color: blanchedalmond;
+    width:40%;
+    opacity: 0.7;
+    border-radius: 20px;
+    padding:10px;
+    
+}
+
+.n2 p{
+    z-index: 2;
+    text-align: center;
+    color:black;
+    font-size: 2em;
+    font-family: 'Leckerli One', cursive;
+   
+    
+}
+
+
+
+   a button {
+     margin-top: 50px;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    padding: 10px;
+    font-size: 1.5em;
+    color:black;
+    font-family: 'Gorditas', cursive;
+/*    margin:  0 auto;*/
+        
+        }
+a:hover button{
+    background-color: firebrick;
+}
